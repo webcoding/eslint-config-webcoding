@@ -46,27 +46,27 @@ This package includes the following complete and ready to use configurations:
 
 - `defaults` - The config [recommended](https://github.com/eslint/eslint/blob/master/conf/eslint.json) by ESLint
 - `defaults/configurations/eslint` - The config [recommended](https://github.com/eslint/eslint/blob/master/conf/eslint.json) by ESLint
-- `defaults/configurations/google` - The [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
-- `defaults/configurations/gulp` - The [Gulp ESLint config](https://github.com/gulpjs/eslint-config-gulp)
-- `defaults/configurations/node-runtime` - The config [used for the Node.js runtime](https://github.com/nodejs/node/blob/master/.eslintrc)
-- `defaults/configurations/off` - Disable all rules (ESLint's default at 1.0.0+)
-- `defaults/configurations/airbnb/es5` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
-- `defaults/configurations/airbnb/es6-react` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
-- `defaults/configurations/airbnb/es6` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
-- `defaults/configurations/walmart/es5-browser` - Walmart ES5 + browser
-- `defaults/configurations/walmart/es5-node` - Walmart ES5 + node < 4.x
-- `defaults/configurations/walmart/es5-test` - Walmart ES5 + test
-- `defaults/configurations/walmart/es5` - Walmart ES5 config
-- `defaults/configurations/walmart/es6-browser` - Walmart ES6 + browser
-- `defaults/configurations/walmart/es6-node` - Walmart ES6 + node 4.x
-- `defaults/configurations/walmart/es6-react-test` - Walmart ES6 + react + test
-- `defaults/configurations/walmart/es6-react` - Walmart ES6 + react
-- `defaults/configurations/walmart/es6-test` - Walmart ES6 + test
-- `defaults/configurations/walmart/es6` - Walmart ES6 config
+- `webcoding/configurations/google` - The [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+- `webcoding/configurations/gulp` - The [Gulp ESLint config](https://github.com/gulpjs/eslint-config-gulp)
+- `webcoding/configurations/node-runtime` - The config [used for the Node.js runtime](https://github.com/nodejs/node/blob/master/.eslintrc)
+- `webcoding/configurations/off` - Disable all rules (ESLint's default at 1.0.0+)
+- `webcoding/configurations/airbnb/es5` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+- `webcoding/configurations/airbnb/es6-react` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+- `webcoding/configurations/airbnb/es6` - Config from the [AirBnB Style Guide](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+- `webcoding/configurations/walmart/es5-browser` - Walmart ES5 + browser
+- `webcoding/configurations/walmart/es5-node` - Walmart ES5 + node < 4.x
+- `webcoding/configurations/walmart/es5-test` - Walmart ES5 + test
+- `webcoding/configurations/walmart/es5` - Walmart ES5 config
+- `webcoding/configurations/walmart/es6-browser` - Walmart ES6 + browser
+- `webcoding/configurations/walmart/es6-node` - Walmart ES6 + node 4.x
+- `webcoding/configurations/walmart/es6-react-test` - Walmart ES6 + react + test
+- `webcoding/configurations/walmart/es6-react` - Walmart ES6 + react
+- `webcoding/configurations/walmart/es6-test` - Walmart ES6 + test
+- `webcoding/configurations/walmart/es6` - Walmart ES6 config
 
 ###### Dependencies
 
-- Any Walmart config (`defaults/configurations/walmart/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
+- Any Walmart config (`webcoding/configurations/walmart/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
 - Any React config (`<prefix>-react`) - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
 - Any ES-next config (`es6-<suffix>`) - [babel-eslint](https://github.com/babel/babel-eslint)
 

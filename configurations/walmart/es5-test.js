@@ -2,7 +2,7 @@
 
 module.exports = {
   "extends": [
-    "defaults/configurations/walmart/es5"
+    "webcoding/configurations/walmart/es5"
   ],
   "env": {
     "mocha": true

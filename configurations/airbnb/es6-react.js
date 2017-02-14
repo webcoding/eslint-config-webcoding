@@ -2,7 +2,7 @@
 
 module.exports = {
   "extends": [
-    "defaults/configurations/airbnb/es6",
-    "defaults/rules/react/airbnb"
+    "webcoding/configurations/airbnb/es6",
+    "webcoding/rules/react/airbnb"
   ]
 };

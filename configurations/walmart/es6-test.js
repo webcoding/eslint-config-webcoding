@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  "extends": "defaults/configurations/walmart/es6",
+  "extends": "webcoding/configurations/walmart/es6",
   "env": {
     "mocha": true
   },

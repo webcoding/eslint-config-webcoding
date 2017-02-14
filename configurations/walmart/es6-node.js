@@ -2,8 +2,8 @@
 
 module.exports = {
   "extends": [
-    "defaults/configurations/walmart/es6",
-    "defaults/rules/eslint/node/walmart"
+    "webcoding/configurations/walmart/es6",
+    "webcoding/rules/eslint/node/walmart"
   ],
   "ecmaFeatures": {
     // Enable arrow functions

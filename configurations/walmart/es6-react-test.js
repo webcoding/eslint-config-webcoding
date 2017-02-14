@@ -2,8 +2,8 @@
 
 module.exports = {
   "extends": [
-    "defaults/configurations/walmart/es6",
-    "defaults/rules/react/walmart"
+    "webcoding/configurations/walmart/es6",
+    "webcoding/rules/react/walmart"
   ],
   "globals": {
     "fetch": false

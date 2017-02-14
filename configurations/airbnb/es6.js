@@ -2,7 +2,7 @@
 
 module.exports = {
   "extends": [
-    "defaults/configurations/airbnb/es5",
-    "defaults/rules/eslint/es6/airbnb"
+    "webcoding/configurations/airbnb/es5",
+    "webcoding/rules/eslint/es6/airbnb"
   ]
 };

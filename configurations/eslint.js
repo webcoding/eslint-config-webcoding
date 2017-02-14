@@ -2,13 +2,13 @@
 
 module.exports = {
   "extends": [
-    "defaults/rules/eslint/best-practices/eslint",
-    "defaults/rules/eslint/errors/eslint",
-    "defaults/rules/eslint/es6/eslint",
-    "defaults/rules/eslint/node/eslint",
-    "defaults/rules/eslint/strict/eslint",
-    "defaults/rules/eslint/style/eslint",
-    "defaults/rules/eslint/variables/eslint"
+    "webcoding/rules/eslint/best-practices/eslint",
+    "webcoding/rules/eslint/errors/eslint",
+    "webcoding/rules/eslint/es6/eslint",
+    "webcoding/rules/eslint/node/eslint",
+    "webcoding/rules/eslint/strict/eslint",
+    "webcoding/rules/eslint/style/eslint",
+    "webcoding/rules/eslint/variables/eslint"
   ],
   "parser": "espree",
   "env": {
