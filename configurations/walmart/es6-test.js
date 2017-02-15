@@ -3,9 +3,9 @@
 module.exports = {
   "extends": "webcoding/configurations/walmart/es6",
   "env": {
-    "mocha": true
+    "mocha": true,
   },
   "rules": {
-    "max-nested-callbacks": 0
-  }
+    "max-nested-callbacks": 0,
+  },
 };

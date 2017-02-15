@@ -2,12 +2,12 @@
 
 module.exports = {
   "extends": [
-    "webcoding/configurations/walmart/es5"
+    "webcoding/configurations/walmart/es5",
   ],
   "env": {
-    "mocha": true
+    "mocha": true,
   },
   "rules": {
-    "max-nested-callbacks": 0
-  }
+    "max-nested-callbacks": 0,
+  },
 };

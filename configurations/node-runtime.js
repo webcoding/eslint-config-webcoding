@@ -8,10 +8,10 @@ module.exports = {
     "defaults/rules/eslint/node/node-runtime",
     "defaults/rules/eslint/strict/node-runtime",
     "defaults/rules/eslint/style/node-runtime",
-    "defaults/rules/eslint/variables/node-runtime"
+    "defaults/rules/eslint/variables/node-runtime",
   ],
   "env": {},
   "ecmaFeatures": {},
   "globals": {},
-  "rules": {}
+  "rules": {},
 };

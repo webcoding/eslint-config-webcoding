@@ -41,7 +41,7 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     "max-depth": 0,
     // specify the maximum length of a line in your program
-    "max-len": [2, 80, 4, {ignoreComments: true, ignoreUrls: true, ignorePattern: "^\\s*var\\s.+=\\s*require\\s*\\("}],
+    "max-len": [2, 80, 4, { ignoreComments: true, ignoreUrls: true, ignorePattern: "^\\s*var\\s.+=\\s*require\\s*\\(" }],
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": 0,
     // limits the number of parameters that can be used in the function declaration.
@@ -125,6 +125,6 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses
-    "wrap-regex": 0
-  }
+    "wrap-regex": 0,
+  },
 };

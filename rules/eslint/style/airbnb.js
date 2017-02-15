@@ -9,9 +9,9 @@ module.exports = {
     // enforce one true brace style
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     // require camel case names
-    "camelcase": [2, {"properties": "never"}],
+    "camelcase": [2, { "properties": "never" }],
     // enforce spacing before and after comma
-    "comma-spacing": [2, {"before": false, "after": true}],
+    "comma-spacing": [2, { "before": false, "after": true }],
     // enforce one true comma style
     "comma-style": [2, "last"],
     // require or disallow padding inside computed properties
@@ -33,7 +33,7 @@ module.exports = {
     // specify whether double or single quotes should be used in JSX attributes
     "jsx-quotes": [2, "prefer-double"],
     // enforces spacing between keys and values in object literal properties
-    "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+    "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     // disallow mixed "LF" and "CRLF" as linebreaks
     "linebreak-style": 0,
     // enforces empty lines around comments
@@ -43,7 +43,7 @@ module.exports = {
     // specify the maximum length of a line in your program
     "max-len": [2, 100, 2, {
       "ignoreUrls": true,
-      "ignoreComments": false
+      "ignoreComments": false,
     }],
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": 0,
@@ -52,7 +52,7 @@ module.exports = {
     // specify the maximum number of statement allowed in a function
     "max-statements": [0, 10],
     // require a capital letter for constructors
-    "new-cap": [2, {"newIsCap": true}],
+    "new-cap": [2, { "newIsCap": true }],
     // disallow the omission of parentheses when invoking a constructor with no arguments
     "new-parens": 0,
     // allow/disallow an empty newline after var statement
@@ -70,7 +70,7 @@ module.exports = {
     // disallow mixed spaces and tabs for indentation
     "no-mixed-spaces-and-tabs": 2,
     // disallow multiple empty lines
-    "no-multiple-empty-lines": [2, {"max": 2, "maxEOF": 1}],
+    "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 1 }],
     // disallow negated conditions
     "no-negated-condition": 0,
     // disallow nested ternary expressions
@@ -108,13 +108,13 @@ module.exports = {
     // Require JSDoc comment
     "require-jsdoc": 0,
     // enforce spacing before and after semicolons
-    "semi-spacing": [2, {"before": false, "after": true}],
+    "semi-spacing": [2, { "before": false, "after": true }],
     // require or disallow use of semicolons instead of ASI
     "semi": [2, "always"],
     // sort variables within the same declaration block
     "sort-vars": 0,
     // require a space before/after certain keywords
-    "keyword-spacing": [2, {"before": false, "after": true}],
+    "keyword-spacing": [2, { "before": false, "after": true }],
     // require or disallow space before blocks
     "space-before-blocks": 2,
     // require or disallow space before function opening parenthesis
@@ -128,9 +128,9 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": [2, "always", {
       "exceptions": ["-", "+"],
-      "markers": ["=", "!"]           // space here to support sprockets directives
+      "markers": ["=", "!"],           // space here to support sprockets directives
     }],
     // require regex literals to be wrapped in parentheses
-    "wrap-regex": 0
-  }
+    "wrap-regex": 0,
+  },
 };

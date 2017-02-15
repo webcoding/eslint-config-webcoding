@@ -9,14 +9,14 @@ module.exports = {
     "webcoding/rules/eslint/strict/walmart",
     "webcoding/rules/eslint/style/walmart",
     "webcoding/rules/eslint/variables/walmart",
-    "webcoding/rules/filenames/walmart"
+    "webcoding/rules/filenames/walmart",
   ],
   "env": {},
   "ecmaFeatures": {},
   "globals": {
     "require": false,
     "module": false,
-    "process": false
+    "process": false,
   },
-  "rules": {}
+  "rules": {},
 };

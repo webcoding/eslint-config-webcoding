@@ -8,7 +8,7 @@ module.exports = {
     "webcoding/rules/eslint/node/eslint",
     "webcoding/rules/eslint/strict/eslint",
     "webcoding/rules/eslint/style/eslint",
-    "webcoding/rules/eslint/variables/eslint"
+    "webcoding/rules/eslint/variables/eslint",
   ],
   "parser": "espree",
   "env": {
@@ -16,9 +16,9 @@ module.exports = {
     "node": false,
     "amd": false,
     "mocha": false,
-    "jasmine": false
+    "jasmine": false,
   },
   "ecmaFeatures": {},
   "globals": {},
-  "rules": {}
+  "rules": {},
 };

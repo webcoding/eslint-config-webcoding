@@ -3,7 +3,7 @@
 module.exports = {
   "extends": [
     "webcoding/configurations/walmart/es6",
-    "webcoding/rules/eslint/node/walmart"
+    "webcoding/rules/eslint/node/walmart",
   ],
   "ecmaFeatures": {
     // Enable arrow functions
@@ -53,9 +53,9 @@ module.exports = {
     // Enable JSX
     "jsx": false,
     // Enable support for the experimental object rest/spread properties (IMPORTANT: This is an experimental feature that may change significantly in the future. It's recommended that you do not write rules relying on this functionality unless you are willing to incur maintenance cost when it changes.)
-    "experimentalObjectRestSpread": false
+    "experimentalObjectRestSpread": false,
   },
-  rules: {
+  "rules": {
     // verify super() callings in constructors
     "constructor-super": 0,
     // disallow modifying variables of class declarations
@@ -65,6 +65,6 @@ module.exports = {
     // disallow to use this/super before super() calling in constructors.
     "no-this-before-super": 0,
     // suggest using Reflect methods where applicable
-    "prefer-reflect": 0
-  }
+    "prefer-reflect": 0,
+  },
 };

@@ -7,7 +7,7 @@ module.exports = {
     "webcoding/rules/eslint/node/airbnb",
     "webcoding/rules/eslint/strict/airbnb",
     "webcoding/rules/eslint/style/airbnb",
-    "webcoding/rules/eslint/variables/airbnb"
+    "webcoding/rules/eslint/variables/airbnb",
   ],
   "parser": "babel-eslint",
   "env": {
@@ -15,9 +15,9 @@ module.exports = {
     "node": true,
     "amd": false,
     "mocha": false,
-    "jasmine": false
+    "jasmine": false,
   },
   "ecmaFeatures": {},
   "globals": {},
-  "rules": {}
+  "rules": {},
 };

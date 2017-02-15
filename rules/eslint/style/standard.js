@@ -67,7 +67,7 @@ module.exports = {
     // disallow mixed spaces and tabs for indentation
     "no-mixed-spaces-and-tabs": [2, false],
     // disallow multiple empty lines
-    "no-multiple-empty-lines": [0, {"max": 2}],
+    "no-multiple-empty-lines": [0, { "max": 2 }],
     // disallow negated conditions
     "no-negated-condition": 0,
     // disallow nested ternary expressions
@@ -105,7 +105,7 @@ module.exports = {
     // Require JSDoc comment
     "require-jsdoc": 0,
     // enforce spacing before and after semicolons
-    "semi-spacing": [2, {"before": false, "after": true}],
+    "semi-spacing": [2, { "before": false, "after": true }],
     // require or disallow use of semicolons instead of ASI
     "semi": 0,
     // sort variables within the same declaration block
@@ -125,6 +125,6 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses
-    "wrap-regex": 0
-  }
+    "wrap-regex": 0,
+  },
 };

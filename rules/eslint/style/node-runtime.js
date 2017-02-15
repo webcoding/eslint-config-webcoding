@@ -29,7 +29,7 @@ module.exports = {
     // require identifiers to match the provided regular expression
     "id-match": 0,
     // this option sets a specific tab width for your code
-    "indent": [2, 2, {SwitchCase: 1}],
+    "indent": [2, 2, { SwitchCase: 1 }],
     // specify whether double or single quotes should be used in JSX attributes
     "jsx-quotes": 0,
     // enforces spacing between keys and values in object literal properties
@@ -67,7 +67,7 @@ module.exports = {
     // disallow mixed spaces and tabs for indentation
     "no-mixed-spaces-and-tabs": 2,
     // disallow multiple empty lines
-    "no-multiple-empty-lines": [2, {max: 2}],
+    "no-multiple-empty-lines": [2, { max: 2 }],
     // disallow negated conditions
     "no-negated-condition": 0,
     // disallow nested ternary expressions
@@ -111,7 +111,7 @@ module.exports = {
     // sort variables within the same declaration block
     "sort-vars": 0,
     // require a space before/after certain keywords
-    "keyword-spacing": [2, {"before": false, "after": true}],
+    "keyword-spacing": [2, { "before": false, "after": true }],
     // require or disallow space before blocks
     "space-before-blocks": [2, "always"],
     // require or disallow space before function opening parenthesis
@@ -125,6 +125,6 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses
-    "wrap-regex": 0
-  }
+    "wrap-regex": 0,
+  },
 };

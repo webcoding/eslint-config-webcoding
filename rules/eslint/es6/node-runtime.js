@@ -2,7 +2,7 @@
 
 module.exports = {
   "env": {
-    "es6": false
+    "es6": false,
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
@@ -14,7 +14,7 @@ module.exports = {
     "objectLiteralShorthandMethods": true,
     "objectLiteralShorthandProperties": true,
     "octalLiterals": true,
-    "templateStrings": true
+    "templateStrings": true,
   },
   "rules": {
     // require braces in arrow function body
@@ -22,7 +22,7 @@ module.exports = {
     // require parens in arrow function arguments
     "arrow-parens": [2, "always"],
     // require space before/after arrow function's arrow
-    "arrow-spacing": [2, {"before": true, "after": true}],
+    "arrow-spacing": [2, { "before": true, "after": true }],
     // verify super() callings in constructors
     "constructor-super": 0,
     // enforce the spacing around the * in generator functions
@@ -52,6 +52,6 @@ module.exports = {
     // suggest using template literals instead of strings concatenation
     "prefer-template": 0,
     // disallow generator functions that do not have yield
-    "require-yield": 0
-  }
+    "require-yield": 0,
+  },
 };

@@ -2,10 +2,10 @@
 
 module.exports = {
   "env": {
-    "es6": false
+    "es6": false,
   },
   "ecmaFeatures": {
-    "modules": false
+    "modules": false,
   },
   "rules": {
     // require braces in arrow function body
@@ -43,6 +43,6 @@ module.exports = {
     // suggest using template literals instead of strings concatenation
     "prefer-template": 0,
     // disallow generator functions that do not have yield
-    "require-yield": 0
-  }
+    "require-yield": 0,
+  },
 };

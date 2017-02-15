@@ -8,10 +8,10 @@ module.exports = {
     "defaults/rules/eslint/node/off",
     "defaults/rules/eslint/strict/off",
     "defaults/rules/eslint/style/off",
-    "defaults/rules/eslint/variables/off"
+    "defaults/rules/eslint/variables/off",
   ],
   "env": {},
   "ecmaFeatures": {},
   "globals": {},
-  "rules": {}
+  "rules": {},
 };

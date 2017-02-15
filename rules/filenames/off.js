@@ -2,10 +2,10 @@
 
 module.exports = {
   "plugins": [
-    "filenames"
+    "filenames",
   ],
   "rules": {
     // Enforce filenames
-    "filenames/match-regex": 0
-  }
+    "filenames/match-regex": 0,
+  },
 };

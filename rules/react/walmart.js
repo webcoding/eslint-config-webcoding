@@ -3,10 +3,10 @@
 module.exports = {
   "parser": "babel-eslint",
   "plugins": [
-    "react"
+    "react",
   ],
   "ecmaFeatures": {
-    "jsx": false
+    "jsx": false,
   },
   "rules": {
     // Prevent missing displayName in a React component definition
@@ -80,6 +80,6 @@ module.exports = {
     // Enforce component methods order
     "react/sort-comp": 0,
     // Prevent missing parentheses around multilines JSX
-    "react/wrap-multilines": 2
-  }
+    "react/wrap-multilines": 2,
+  },
 };

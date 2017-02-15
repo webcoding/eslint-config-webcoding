@@ -8,10 +8,10 @@ module.exports = {
     "defaults/rules/eslint/node/gulp",
     "defaults/rules/eslint/strict/gulp",
     "defaults/rules/eslint/style/gulp",
-    "defaults/rules/eslint/variables/gulp"
+    "defaults/rules/eslint/variables/gulp",
   ],
   "env": {},
   "ecmaFeatures": {},
   "globals": {},
-  "rules": {}
+  "rules": {},
 };

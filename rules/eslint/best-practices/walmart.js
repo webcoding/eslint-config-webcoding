@@ -55,7 +55,7 @@ module.exports = {
     // disallow usage of __iterator__ property
     "no-iterator": 2,
     // disallow use of labeled statements
-    "no-labels": [2, {"allowLoop": true, "allowSwitch": true}],
+    "no-labels": [2, { "allowLoop": true, "allowSwitch": true }],
     // disallow unnecessary nested blocks
     "no-lone-blocks": 2,
     // disallow creation of functions within loops
@@ -116,6 +116,6 @@ module.exports = {
     // require immediate function invocation to be wrapped in parentheses
     "wrap-iife": 0,
     // require or disallow Yoda conditions
-    "yoda": [2, "never"]
-  }
+    "yoda": [2, "never"],
+  },
 };

@@ -111,7 +111,7 @@ module.exports = {
     // sort variables within the same declaration block
     "sort-vars": 0,
     // require a space before/after certain keywords
-    "keyword-spacing": [2, {"before": false, "after": true}],
+    "keyword-spacing": [2, { "before": false, "after": true }],
     // require or disallow space before blocks
     "space-before-blocks": 0,
     // require or disallow space before function opening parenthesis
@@ -125,6 +125,6 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses
-    "wrap-regex": 0
-  }
+    "wrap-regex": 0,
+  },
 };

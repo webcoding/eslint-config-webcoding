@@ -3,9 +3,9 @@
 module.exports = {
   "extends": [
     "webcoding/configurations/walmart/es5",
-    "webcoding/rules/eslint/node/walmart"
+    "webcoding/rules/eslint/node/walmart",
   ],
   "rules": {
-    "strict": [2, "global"]
-  }
+    "strict": [2, "global"],
+  },
 };

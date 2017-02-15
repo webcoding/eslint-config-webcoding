@@ -41,7 +41,7 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     "max-depth": [2, 4],
     // specify the maximum length of a line in your program
-    "max-len": [2, 100, 2, {"ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\("}],
+    "max-len": [2, 100, 2, { "ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\(" }],
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": [2, 3],
     // limits the number of parameters that can be used in the function declaration.
@@ -67,7 +67,7 @@ module.exports = {
     // disallow mixed spaces and tabs for indentation
     "no-mixed-spaces-and-tabs": 2,
     // disallow multiple empty lines
-    "no-multiple-empty-lines": [2, {"max": 2}],
+    "no-multiple-empty-lines": [2, { "max": 2 }],
     // disallow negated conditions
     "no-negated-condition": 0,
     // disallow nested ternary expressions
@@ -105,17 +105,17 @@ module.exports = {
     // Require JSDoc comment
     "require-jsdoc": 0,
     // enforce spacing before and after semicolons
-    "semi-spacing": [2, {"before": false, "after": true}],
+    "semi-spacing": [2, { "before": false, "after": true }],
     // require or disallow use of semicolons instead of ASI
     "semi": 2,
     // sort variables within the same declaration block
     "sort-vars": 0,
     // require a space before/after certain keywords
-    "keyword-spacing": [2, {"before": true, "after": true}],
+    "keyword-spacing": [2, { "before": true, "after": true }],
     // require or disallow space before blocks
     "space-before-blocks": [2, "always"],
     // require or disallow space before function opening parenthesis
-    "space-before-function-paren": [2, {"anonymous": "always", "named": "never" }],
+    "space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
     // require or disallow spaces inside parentheses
     "space-in-parens": [2, "never"],
     // require spaces around operators
@@ -125,6 +125,6 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses
-    "wrap-regex": 0
-  }
+    "wrap-regex": 0,
+  },
 };
