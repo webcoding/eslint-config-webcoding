@@ -3,11 +3,11 @@
   "description": "A set of default eslint configuration",
   "version": "10.0.0-5",
   "author": "Eric Baer <me@ericbaer.com>",
-  "homepage": "https://github.com/walmartlabs/eslint-config-defaults",
+  "homepage": "https://github.com/webcoding/eslint-config-webcoding",
   "bugs": {
-    "url": "https://github.com/walmartlabs/eslint-config-defaults/issues"
+    "url": "https://github.com/webcoding/eslint-config-webcoding/issues"
   },
-  "repository": "git://github.com/walmartlabs/eslint-config-defaults.git",
+  "repository": "git://github.com/webcoding/eslint-config-webcoding.git",
   "private": false,
   "dependencies": {},
   "devDependencies": {
@@ -21,7 +21,7 @@
     "test": "eslint configurations rules"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 6.0.0"
   },
   "license": "MIT",
   "keywords": [
