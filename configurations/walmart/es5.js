@@ -11,12 +11,12 @@ module.exports = {
     "webcoding/rules/eslint/variables/walmart",
     "webcoding/rules/filenames/walmart",
   ],
-  "env": {},
-  "ecmaFeatures": {},
   "globals": {
     "require": false,
     "module": false,
     "process": false,
   },
-  "rules": {},
+  // "env": {},
+  // "ecmaFeatures": {},
+  // "rules": {},
 };

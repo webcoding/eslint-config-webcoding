@@ -10,8 +10,8 @@ module.exports = {
     "defaults/rules/eslint/style/standard",
     "defaults/rules/eslint/variables/standard",
   ],
-  "env": {},
-  "ecmaFeatures": {},
-  "globals": {},
-  "rules": {},
+  // "env": {},
+  // "ecmaFeatures": {},
+  // "globals": {},
+  // "rules": {},
 };
